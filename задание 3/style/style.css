@@ -1,0 +1,125 @@
+
+
+body {
+
+    display: flex;
+}
+
+.chat {
+    
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: 700px;
+    background-color: rgb(140, 206, 231);
+    border-radius: 10px;
+    border-color: rgb(56, 106, 207);
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 2px 8px 2px #00518b;
+}
+
+input {
+
+    width: 290px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.btn {
+
+    width: 127px;
+    height: 40px;
+    margin: auto;
+    border-radius: 56px;
+    margin-top: 23px;
+    background-color: #0078d0;
+    border-width: 1.3px;
+    border-color: #012a47;
+    box-shadow: 0 1px 2px 1px #014677;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+
+.btn:hover {
+
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:active {
+
+    transform: scale(0.97);
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 2px 3px 2px #013961;
+
+}
+
+.write-messege-and-buttons {
+
+    display: flex;
+    justify-content: center;
+    width: 570px; 
+    margin: auto;  
+}
+
+.chat-window {
+
+    width: 570px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #012a47;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.messege-div {
+
+    
+    max-width: 500px;
+    height: auto;
+    background-color: #0078d0;
+    border-radius: 20px;
+    margin: 10px; 
+    padding: 0 10px; 
+    font-family: cursive; 
+    color: white;
+    align-self: flex-end;
+    word-wrap: break-word;
+    padding: 10px;
+    
+}
+
+.messege-div-response {
+
+    
+    max-width: 500px;
+    height: auto;
+    background-color: #0078d0;
+    border-radius: 20px;
+    margin: 10px; 
+    padding: 0 10px; 
+    font-family: cursive; 
+    color: white;
+    align-self: flex-start;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+
