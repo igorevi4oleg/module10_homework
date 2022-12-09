@@ -1,0 +1,41 @@
+.btn {
+
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(159, 193, 221);
+    box-shadow: 0px 2px 8px 2px black;
+    transition: 0.2s ease-in-out;
+   
+    
+}
+
+.btn:hover {
+
+    box-shadow: 0px 1px 4px 1px black;
+    background-color: rgb(169, 198, 221);
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.btn:active{
+    transition: 0.1s ease-in-out;
+    transform: scale(0.95);
+    box-shadow: 0px 3px 9px 3px black;
+}
+
+
+.buttun-and-svg {
+    
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
